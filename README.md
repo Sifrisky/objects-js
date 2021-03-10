@@ -21,7 +21,7 @@ const PeliculaUno = {
 }
 ```
 
-Todo el objeto anterior es Harry, para acceder a algo dentro de la llave se llama "this".
+_Todo el objeto anterior es Harry, para acceder a algo dentro de la llave se llama "this"._
 
 ```
 Imprimimos por consola:
@@ -43,9 +43,9 @@ const PeliculaDos = {
 ```
 
 
-_Esto anterior esta muy bien, pero y si hablamos de una empresa como Netflix, ¿cómo podriamos hacer para reproducir miles de peliculas iguales? ¿como podriamos resolver el tema de crear objetos literales? Aqui es donde entra en juego las clases. Una clase es como una plantilla de objetos creados de forma literal y ocupamos el molde para crear muchas peliculas parecidas.
+_Esto anterior esta muy bien, pero y si hablamos de una empresa como Netflix, ¿cómo podriamos hacer para reproducir miles de peliculas iguales? ¿como podriamos resolver el tema de crear objetos literales? Aqui es donde entra en juego las clases. Una clase es como una plantilla de objetos creados de forma literal y ocupamos el molde para crear muchas peliculas parecidas._
 
-En nuestro ejemplo, dejaremos una sola plantilla y lo que debemos hacer es instanciar un objeto. 
+_En nuestro ejemplo, dejaremos una sola plantilla y lo que debemos hacer es instanciar un objeto. 
 Esto es la creacion "ocupar la plantilla y crear el primer objeto" hacemos una constante que sera igual a un nuevo objeto con la palabra reservada new que hace referencia a esa plantilla._
 
 ```
@@ -70,7 +70,8 @@ class Pelicula {
 - La plantilla tiene la capacidad de utilizar todo lo que tiene pelicula y aparte tiene su propio metodo.
 
 ```
-//Ahora lo guardamos en una constante y colocamos la palabra reservada new con el mismo nombre de la clase y entre aprentesis pasamos los parametros designados.
+//Ahora lo guardamos en una constante y colocamos la palabra reservada new con el mismo nombre de la clase.
+//Entre los parentesis pasamos los parametros designados.
 
 const PeliculaUno = new Pelicula(); //aca se ha creado mi primer objeto
 const PeliculaDos = new Pelicula(); // aca se ha creado mi segundo objeto
@@ -112,10 +113,10 @@ console.log(SerieUno.reproducirCapitulo());
 Además, la serie tiene una lista de capitulos y para ello se crea el constructor y se llama a los mismos parametros. Si ya ocupamos nombre y id, podemos usamos la palabra reservada super y con esto le digo que uso el nombre y id que extiendo de Pelicula.
 
 ## Heredar una clase: 
-En la practica se hace extendiendola con el mismo nombre, entonces esta hereda lo ya declarado pero la clase padre no accederia al hijo (no es viceversa) es decir, Pelicula no puede tomar la funcion/metodo reproducirCapitulo() de la class Serie pero Serie si puede tomar la info de clase.
+_En la practica se hace extendiendola con el mismo nombre, entonces esta hereda lo ya declarado pero la clase padre no accederia al hijo (no es viceversa) es decir, Pelicula no puede tomar la funcion/metodo reproducirCapitulo() de la class Serie pero Serie si puede tomar la info de clase.
 
 
-Dato importante: para trabajar con Class hay que tener cuidado con la compatibilidad de los navegadores, con typescrit se utiliza class y al compilarlo lo traduce a un js que lee todos los navegadores web. Y Angular utiliza typescript y vista co
+Dato importante: para trabajar con Class hay que tener cuidado con la compatibilidad de los navegadores, con typescrit se utiliza class y al compilarlo lo traduce a un js que lee todos los navegadores web. Y Angular utiliza typescript y vista co_
 
 
 ## Ejecutando las pruebas ⚙️
