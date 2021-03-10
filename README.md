@@ -4,7 +4,8 @@
 La programación orientada a objetos son paradigmas de la programación, hoy veremos un ejemplo simple a continuación:
 
 
-- Creando objetos literales: Para este caso, nombre y id serian los atributos del objeto y reproducir() el metodo.
+- Creando objetos literales: 
+Para este caso, nombre y id serian los atributos del objeto y reproducir() el metodo.
 
 `
 const PeliculaUno = {
@@ -20,10 +21,10 @@ const PeliculaUno = {
 Todo el objeto anterior es Harry, para acceder a algo dentro de la llave se llama "this".
 
 Imprimimos por consola:
-
+`
 console.log(PeliculaUno); //Acá tendremos como resultado--> Harry.
 console.log(PeliculaUno.reproducir()); //Acá tendfremos como resultado --> reproduciendo pelicula Harry.
-
+`
 
 - Ejemplo 2. Creando Objetos literales (Repetimos el 1 con otra pelicula).
 `
@@ -61,9 +62,11 @@ class Pelicula {
 - Instanciar: es crear un nuevo objeto a traves de una plantilla llamada Pelicula.
 Ahora lo guardamos en una constante y colocamos la palabra reservada new con el mismo nombre de la clase y entre aprentesis pasamos los parametros designados.
 
+`
 const PeliculaUno = new Pelicula(); //aca se ha creado mi primer objeto
 const PeliculaDos = new Pelicula(); // aca se ha creado mi segundo objeto
 console.log(PeliculaDos);
+`
 
 Hasta ahora es estatico pero si pasamos parametros nombre y id a la clase y reemplazamos el this por ello pues podemos hacerlo dinamico.
 
@@ -87,6 +90,7 @@ class Serie extends Pelicula{
 `
 
 //Usamos la palabra reservada new que hace referencia a la plantilla creada, pelicula.
+`
 const PeliculaUno = new Pelicula("Harry", 1);
 const PeliculaDos = new Pelicula("Araña", 2);
 const PeliculaTres = new Pelicula("Avengers",3);
@@ -97,6 +101,7 @@ console.log(PeliculaTres.reproducir());
 console.log(PeliculaDos.reproducir());
 console.log(PeliculaUno);
 console.log(SerieUno.reproducirCapitulo());
+`
 
 Además, la serie tiene una lista de capitulos y para ello se crea el constructor y se llama a los mismos parametros. Si ya ocupamos nombre y id, podemos usamos la palabra reservada super y con esto le digo que uso el nombre y id que extiendo de Pelicula.
 
