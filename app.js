@@ -33,7 +33,7 @@ constructor(nombre, id, cap){
 //Instanciar, crear un nuevo objeto a traves de una plantilla llamada Pelicula.
 const PeliculaUno = new Pelicula('Harry', 1); //aca se ha creado mi primer objeto
 const PeliculaDos = new Pelicula('Hombre Araña', 2);
-const SerieUno = new Serie('Dexter', 3, 25);
+const SerieUno = new Serie('WandaVision', 3, 25);
 
 console.log(PeliculaUno.reproducir());
 console.log(PeliculaDos.reproducir());
