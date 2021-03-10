@@ -65,9 +65,9 @@ class Pelicula {
 
 ```
 ## importante. 
-- Solo puedes ocupar un constructor pero si puedes hacer muchos metodos.
-- Instanciar: Es crear un nuevo objeto a traves de una plantilla llamada Pelicula.
-- La plantilla tiene la capacidad de utilizar todo lo que tiene pelicula y aparte tiene su propio metodo.
+- _Solo puedes ocupar un constructor pero si puedes hacer muchos metodos._
+- _Instanciar: Es crear un nuevo objeto a traves de una plantilla llamada Pelicula._
+- _La plantilla tiene la capacidad de utilizar todo lo que tiene pelicula y aparte tiene su propio metodo._
 
 ```
 //Ahora lo guardamos en una constante y colocamos la palabra reservada new con el mismo nombre de la clase.
@@ -78,9 +78,9 @@ const PeliculaDos = new Pelicula(); // aca se ha creado mi segundo objeto
 console.log(PeliculaDos);
 ```
 
-Hasta ahora es estatico pero si pasamos parametros nombre y id a la clase y reemplazamos el this por ello pues podemos hacerlo dinamico. 
+_Hasta ahora es estatico pero si pasamos parametros nombre y id a la clase y reemplazamos el this por ello pues podemos hacerlo dinamico._
 
-Por otro lado, Netfliz tambien series, en este caso usariamos el extends. (que se extiende hasta...). La palabra reservada extends tendra las mismas propiedades que en las lineas arriba, tanto el constructor como su funcionalidad.
+_Por otro lado, Netfliz tambien series, en este caso usariamos el extends. (que se extiende hasta...). La palabra reservada extends tendra las mismas propiedades que en las lineas arriba, tanto el constructor como su funcionalidad._
 
 ```
 Ejemplo 4. Creando la clase Serie apartir de Pelicula.
@@ -95,7 +95,7 @@ class Serie extends Pelicula{
 }
 ```
 
-Usamos la palabra reservada new que hace referencia a la plantilla creada, pelicula.
+_Usamos la palabra reservada new que hace referencia a la plantilla creada, pelicula._
 
 ```
 const PeliculaUno = new Pelicula("Harry", 1);
@@ -110,13 +110,13 @@ console.log(PeliculaUno);
 console.log(SerieUno.reproducirCapitulo());
 ```
 
-Además, la serie tiene una lista de capitulos y para ello se crea el constructor y se llama a los mismos parametros. Si ya ocupamos nombre y id, podemos usamos la palabra reservada super y con esto le digo que uso el nombre y id que extiendo de Pelicula.
+_Además, la serie tiene una lista de capitulos y para ello se crea el constructor y se llama a los mismos parametros. Si ya ocupamos nombre y id, podemos usamos la palabra reservada super y con esto le digo que uso el nombre y id que extiendo de Pelicula._
 
 ## Heredar una clase: 
 _En la practica se hace extendiendola con el mismo nombre, entonces esta hereda lo ya declarado pero la clase padre no accederia al hijo (no es viceversa) es decir, Pelicula no puede tomar la funcion/metodo reproducirCapitulo() de la class Serie pero Serie si puede tomar la info de clase.
 
 
-Dato importante: para trabajar con Class hay que tener cuidado con la compatibilidad de los navegadores, con typescrit se utiliza class y al compilarlo lo traduce a un js que lee todos los navegadores web. Y Angular utiliza typescript y vista co_
+_Dato importante: para trabajar con Class hay que tener cuidado con la compatibilidad de los navegadores, con typescrit se utiliza class y al compilarlo lo traduce a un js que lee todos los navegadores web._
 
 
 ## Ejecutando las pruebas ⚙️
@@ -134,12 +134,12 @@ Para descargarlo
 
 ## Autores ✒️
 
-* **Astrid Medina** - *Trabajo Inicial - Documentacion - code - ideas* - [Sifrisky](https://github.com/Sifrisky)
+👩‍🚀 * **Astrid Medina** - *Trabajo Inicial - Documentacion - code - ideas* - [Sifrisky](https://github.com/Sifrisky)
 
 
-## Gracias por leerme 🎁🤓.
+## _Gracias por leerme_ 🎁🥰.
 
 
 
 ---
-⌨️ con ❤️ por [Sifrisky](https://github.com/Sifrisky) 
+👩‍💻 con 💛 por [Sifrisky](https://github.com/Sifrisky) 
